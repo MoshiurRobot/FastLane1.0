@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Lane Fast 3D</title>
+</head>
+<body>
+
+    <div id="game-container"></div>
+
+    <div id="hud">
+        <div class="hud-item">
+            <span>SCORE</span>
+            <strong id="score">0</strong>
+        </div>
+
+        <div class="hud-item">
+            <span>SPEED</span>
+            <strong id="speed">0 KM/H</strong>
+        </div>
+
+        <div class="hud-item">
+            <span>DISTANCE</span>
+            <strong id="distance">0 M</strong>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <div class="panel">
+            <h1 id="overlay-title">3D RACING</h1>
+            <p id="overlay-message">
+                Avoid traffic and r
+            </p>
+
+            <button id="start-button">START Score</button>
+
+            <p class="instructions">
+                Use ← → or A / D to change lanes
+            </p>
+            <p class="dev">
+              Developed with love by Md Moshiur Rahman 
+            </p>
+        </div>
+    </div>
+
+    <div id="mobile-controls">
+        <button id="left-button">◀</button>
+        <button id="right-button">▶</button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
